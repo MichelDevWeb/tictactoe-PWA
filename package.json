@@ -8,9 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +25,6 @@
     "@nebular/eva-icons": "6.2.2",
     "@nebular/theme": "^6.2.2",
     "eva-icons": "^1.1.2",
-    "gh-pages": "^3.2.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
